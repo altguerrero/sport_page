@@ -5,6 +5,7 @@
 @import "./components/Main.scss";
 @import "./components/Header.scss";
 @import "./components/Background.scss";
+@import "./components/Presentation.scss";
 
 // Global
 * {
@@ -15,17 +16,10 @@
 }
 
 body {
-  font-family: "Adihausdin";
+  font-family: sans-serif;
 }
 
-h1 {
-  @include Adihausdin($black);
-}
-
-h2 {
-  @include Adihausdin_cn($gray);
-}
-
-h3 {
-  @include Adineueprocond_bold($primary-color);
+.red {
+  background-color: red;
+  fill: red;
 }

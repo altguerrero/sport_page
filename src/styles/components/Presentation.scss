@@ -1,0 +1,73 @@
+.presentation {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 3rem;
+  width: 95%;
+  margin: 5rem auto 0;
+  position: relative;
+
+  &__item:last-of-type {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__logo {
+    height: 2rem;
+    width: fit-content;
+    fill: $primary-color;
+  }
+
+  &__title {
+    @include Adineueprocond_bold($primary-color);
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+
+  &__player {
+    width: fit-content;
+    margin-top: 11rem;
+    & img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      max-width: 709px;
+      max-height: 1060px;
+      object-fit: contain;
+      max-width: 100%;
+    }
+
+    & div {
+      position: relative;
+
+      &::before {
+        content: "";
+        display: block;
+        background-color: transparent;
+        border: 0.5rem solid $primary-color;
+        width: 95%;
+        height: 95%;
+        position: absolute;
+        transform: translate(5%, 5%);
+        z-index: -1;
+      }
+    }
+
+    & figcaption {
+      text-transform: uppercase;
+      @include Adihausdin_cn($black);
+      text-align: right;
+      margin-top: 1.5rem;
+    }
+  }
+
+  &__info {
+    margin-top: 10rem;
+    @include Adihausdin_cn($gray);
+    text-transform: uppercase;
+  }
+
+  &__product {
+    position: absolute;
+    transform: translate(0, 10rem);
+  }
+}

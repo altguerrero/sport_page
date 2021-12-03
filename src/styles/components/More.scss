@@ -1,0 +1,9 @@
+.more {
+  margin: 7rem 0;
+  text-align: center;
+
+  &__title {
+    @include Adineueprocond_bold($black);
+    text-transform: uppercase;
+  }
+}

@@ -1,6 +1,10 @@
 @import "./normalize";
 @import "./fonts";
 @import "./vars";
+// components
+@import "./components/Main.scss";
+@import "./components/Header.scss";
+@import "./components/Background.scss";
 
 // Global
 * {

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="178.52148"
+   height="405.46289"
+   viewBox="0 0 47.233808 107.27873"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="linea3.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3857143"
+     inkscape:cx="-6.3954136"
+     inkscape:cy="223.92161"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="5"
+     lock-margins="true"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Capa 2"
+     transform="translate(-69.496532,-85.287299)">
+    <path
+       id="path884"
+       style="fill:#000000;stroke-width:1.00179;stroke-linecap:round;stroke-linejoin:round"
+       d="m 421.18555,327.3457 a 15,15 0 0 0 -15,14.92578 h -24.91993 v 0.002 3.06054 374.03711 H 267.66406 v 3.4375 h 113.60156 3.37305 v -3.4375 -374.03711 h 21.84766 a 15,15 0 0 0 14.69922,12.01172 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z m -0.01,3.25 a 11.75,11.75 0 0 1 0.01,0 11.75,11.75 0 0 1 11.75,11.75 11.75,11.75 0 0 1 -11.75,11.75 11.75,11.75 0 0 1 -11.75,-11.75 11.75,11.75 0 0 1 11.74023,-11.75 z"
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

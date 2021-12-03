@@ -53,7 +53,7 @@ module.exports = {
         loader: "html-loader",
       },
       {
-        test: /\.png/,
+        test: /\.(png|jpg|gif|svg)$/,
         type: "asset/resource",
       },
       {

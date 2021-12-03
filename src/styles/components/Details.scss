@@ -1,0 +1,41 @@
+.details {
+  margin: 0 auto;
+  margin-top: 20rem;
+  width: 95%;
+  position: relative;
+
+  &__list {
+    margin-bottom: 2rem;
+    list-style: none;
+
+    & li {
+      margin-bottom: 2rem;
+
+      & h3 {
+        text-transform: uppercase;
+        @include Adineueprocond_bold($primary-color, 3rem, 3rem, 0.2rem);
+        margin-bottom: 0;
+        max-width: 20rem;
+      }
+
+      & p {
+        text-transform: uppercase;
+        @include Adihausdin_cn($black, 1.8rem, 2rem, 2.45px);
+      }
+    }
+  }
+
+  &__slider {
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    width: 64%;
+    z-index: -1;
+
+    & img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

@@ -29,7 +29,7 @@
     position: absolute;
     top: 10rem;
     right: 0;
-    width: 64%;
+    width: calc(100% - calc(515px));
     z-index: -1;
 
     & img {

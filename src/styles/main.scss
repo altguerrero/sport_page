@@ -1,0 +1,27 @@
+@import "./normalize";
+@import "./fonts";
+@import "./vars";
+
+// Global
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Adihausdin";
+}
+
+h1 {
+  font-family: "Adihausdin";
+}
+
+h2 {
+  font-family: "Adihausdin_cn";
+}
+
+h3 {
+  font-family: "Adineueprocond_bold";
+}

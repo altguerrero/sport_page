@@ -19,13 +19,13 @@ body {
 }
 
 h1 {
-  font-family: "Adihausdin";
+  @include Adihausdin($black);
 }
 
 h2 {
-  font-family: "Adihausdin_cn";
+  @include Adihausdin_cn($gray);
 }
 
 h3 {
-  font-family: "Adineueprocond_bold";
+  @include Adineueprocond_bold($primary-color);
 }

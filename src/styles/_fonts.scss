@@ -1,0 +1,53 @@
+@font-face {
+  font-style: normal;
+  font-family: "Adihausdin";
+  src: url("../assets/fonts/adihausdin.woff2") format("woff2"),
+    url("../assets/fonts/adihausdin.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-style: normal;
+  font-family: "Adihausdin_cn";
+  src: url("../assets/fonts/adihausdin_cn.woff2") format("woff2"),
+    url("../assets/fonts/adihausdin_cn.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-style: normal;
+  font-family: "Adineueprocond_bold";
+  src: url("../assets/fonts/adineueprocond_bold.woff2") format("woff2"),
+    url("../assets/fonts/adineueprocond_bold.woff") format("woff");
+  font-weight: bold;
+}
+
+@mixin Adihausdin($color, $size: 2.8rem, $height: 3.875rem, $spacing: 0.5rem) {
+  font-size: $size;
+  font-family: "Adihausdin";
+  color: $color;
+  line-height: $height;
+  letter-spacing: $spacing;
+  font-weight: 400;
+}
+
+@mixin Adihausdin_cn($color, $size: 2rem, $height: 2.7rem, $spacing: 0.15rem) {
+  font-size: $size;
+  font-family: "Adihausdin_cn";
+  color: $color;
+  line-height: $height;
+  letter-spacing: $spacing;
+  font-weight: bold;
+}
+
+@mixin Adineueprocond_bold(
+  $color,
+  $size: 7.5rem,
+  $height: 6.2rem,
+  $spacing: 0.5rem
+) {
+  font-size: $size;
+  font-family: "Adineueprocond_bold";
+  color: $color;
+  line-height: $height;
+  letter-spacing: $spacing;
+  font-weight: bold;
+}
